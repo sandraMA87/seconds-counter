@@ -10,3 +10,10 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.contador {
+    width: 880px;
+    border: 2px solid;
+    display: flex;
+    flex-direction: row;
+
+}
