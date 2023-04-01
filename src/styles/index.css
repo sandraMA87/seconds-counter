@@ -11,9 +11,25 @@
 
 */
 .contador {
-    width: 880px;
-    border: 2px solid;
+    width: 500px;
+    border: 5px solid;
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 40px;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    font-family: 'Times New Roman', Times, serif;
 
+
+}
+body {
+    background-color:beige
 }
