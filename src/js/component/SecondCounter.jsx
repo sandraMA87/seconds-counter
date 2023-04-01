@@ -8,12 +8,11 @@ function SecondCounter({ seconds }) {
 
   return (
     <div className="contador">&#x23F3;
-      <div className="">{horas[0]}</div>
-      <div className="">{horas[1]}:</div>
-      <div className="">{minutos[0]}</div>
-      <div className="">{minutos[1]}:</div>
-      <div className="">{segundos[0]}</div>
-      <div className="">{segundos[1]}</div>
+      <div className="contador-horas">{horas}:</div>
+      <div className="contador-minutos">{minutos}:</div>
+      <div className="contador-segundos">{segundos}</div>
+      <div className="calendario">
+    </div>
     </div>
   );
 };
